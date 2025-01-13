@@ -12,6 +12,10 @@
         <servlet-name>TimeServlet</servlet-name>
         <servlet-class>my_servlet.TimeServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CounterServlet</servlet-name>
+        <servlet-class>my_servlet.CounterServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/HelloServlet</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>TimeServlet</servlet-name>
         <url-pattern>/TimeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CounterServlet</servlet-name>
+        <url-pattern>/CounterServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

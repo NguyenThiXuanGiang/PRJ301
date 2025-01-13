@@ -40,8 +40,7 @@ public class TimeServlet extends HttpServlet {
             out.println("<body>");
             // In ra ngay thang nam. gio phut giay hien tai
             out.println("Hôm nay là: " + java.time.LocalDate.now() + "<br>");
-            out.println("Bây giờ là: " + java.time.LocalTime.now());
-            
+            out.println("Bây giờ là: " + java.time.LocalTime.now());        
             out.println("</body>");
             out.println("</html>");
         }
