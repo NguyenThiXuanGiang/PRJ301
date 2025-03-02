@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>HTML Forms</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>HTML Forms</h1>
+        <form action="index.html">
+            Textbox <input type="text" name="txtText" value="" size="5" /><br/>
+            Password <input type="password" name="txtPassword" value=""/><br/>
+            Hidden <input type="hidden" name="txtHidden" value="" /><br/>
+            Male <input type="checkbox" name="chkChheck" value="ON" checked="checked"/><br/>
+            Status
+            <input type="radio" name="rdoStatus" value="Single" checked="checked"/>Single<br/>
+            <input type="radio" name="rdoStatus" value="Married"/>Married<br/>
+            <input type="radio" name="rdoStatus" value="Divorsed"/>Divorsed<br/>
+            ComboBox <select name="txtCombo">
+                <option value="Servlet">JSP and Servlet</option>
+                <option value="EJB">EJB</option>
+            </select><br/>
+            TextArea <textarea name="txtArea" rows="4" cols="20">This is a form parametes demo!!!!</textarea><br/>
+            <input type="submit" name="txtB"/>
+            <input type="submit" value="Register" name="action"/>
+            <input type="reset" name="txtB"/>
+            <input type="button" value="JavaScript" name="txtB" onclick=""/>
+        </form>
+    </body>
+</html>
