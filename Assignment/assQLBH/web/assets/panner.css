@@ -1,0 +1,110 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 23, 2023, 9:08:58 PM
+    Author     : Quang Anh
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.t_upcase {
+    text-transform: uppercase !important;
+}
+
+.clr {
+    clear: both;
+}
+
+.tw {
+    color: white;
+}
+
+.tb {
+    color: black;
+}
+
+.panner {
+    background-color: #05b2e9;
+}
+
+.content {
+    width: 100%;
+}
+
+.panner,
+.sub_panner {
+    height: 50px;
+}
+
+.panner ul,
+.sub_panner ul {
+    margin-bottom: 0;
+}
+
+.menu,
+.sub_menu {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu > li,
+.sub_menu > li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.menu li a {
+    padding: 10px;
+}
+.sub_menu > li {
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.sub_menu .cart {
+    margin-left: 100px;
+}
+
+.sub_menu .search_box {
+    margin-right: 10px;
+}
+
+.menu li span {
+    color: white;
+}
+
+.sub_panner {
+    border-bottom: 1px solid #000000;
+}
+
+.menu li a:hover,
+.sub_menu li a:hover {
+    color: red;
+}
+
+.sub_menu .search_box {
+    border: 0px;
+    border-radius: 10px;
+}
+
+.sub_menu .search_submit {
+    padding: 0 10px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.sub_menu .search_submit:hover {
+    opacity: 0.8;
+}
+
+

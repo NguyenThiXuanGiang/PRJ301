@@ -1,0 +1,44 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 27, 2023, 11:49:49 AM
+    Author     : Quang Anh
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.register {
+    text-align: center;
+}
+
+.register h1 {
+    font-size: 30px;
+    opacity: 0.9;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.register h3 {
+    color: red;
+}
+
+.register form input {
+    margin-top: 30px;
+    height: 40px;
+    width: 650px;
+}
+
+.register .register_submit{
+    text-transform: uppercase;
+    background-color: #05b2e9;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+}
